@@ -8,7 +8,7 @@ do
     exit 0;
   fi
   echo "Attempt to curl endpoint returned HTTP Code $HTTP_CODE. Backing off and retrying."
-  sleep 10
+  sleep 11
 done
 echo "Server did not come up after expected time. Failing."
 exit 1
